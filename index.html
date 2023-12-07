@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="style.css">
+  <title>Login_animated</title>
+</head>
+<body>
+  <div class="container">
+        <div class="login">
+            <input type="text" placeholder="Email" id="username" required />
+            <button onclick="login()">Login</button>
+        </div>
+    </div>
+  
+  <script>
+        function login() {
+            var username = document.getElementById('username').value;
+            alert('Username: ' + username);
+        }
+    </script>
+
+</body>
+</html>
